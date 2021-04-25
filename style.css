@@ -1,0 +1,7 @@
+/* Grid Layout */
+.grid {
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(4, 200px); 
+    grid-gap: 20px;
+}
