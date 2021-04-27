@@ -1,16 +1,27 @@
-/*Search Bar*/
-.search-bar {
-    width: 40%;
+/*Search Bar*/ 
+.search-container {
+    display: flex;
+    justify-content: center;
     height: 2em;
     margin: 15px 0px;
+    padding-bottom: 15px;
+}
+
+.search-bar {
+    height: 45px;
+    width: 500px;
+    border: 2px solid grey;
+    
 }
 
 /* Grid Layout */
 .grid {
     display: grid;
-    max-width: 800px;
     grid-template-columns: repeat(4, 200px); 
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
 
 }
 
